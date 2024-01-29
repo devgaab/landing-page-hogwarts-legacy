@@ -37,7 +37,7 @@
 .compre-ja .cartoes {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
     z-index: 1;
 }
@@ -46,9 +46,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     border: 0.5px solid var(--color-primary);
-    width: 30%;
+    width: 50%;
+    /* 30 */
     /* 40% */
     /* 50% */
     /* height: 600px; */
@@ -56,6 +57,7 @@
     padding: 30px 40px;
     gap: 30px;
     /* 40 */
+    backdrop-filter: blur(10px);
 }
 
 .compre-ja .informacoes {
@@ -101,7 +103,7 @@
     width: 30px;
 }
 
-.compre-ja .btn-plataforma .plataformas li .logo-switch{
+.compre-ja .btn-plataforma .plataformas li .logo-switch {
     width: 17%;
 }
 
