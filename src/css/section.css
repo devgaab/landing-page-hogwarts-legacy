@@ -1,6 +1,8 @@
 /* section */
-.compre-ja .capa-do-jogo {
-    width: 200px;
+.compre-ja .cartao .capa-do-jogo {
+    width: 150px;
+    height: 200px;
+    /* 200 */
 }
 
 .compre-ja {
@@ -46,8 +48,10 @@
     align-items: center;
     background-color: #000;
     border: 0.5px solid var(--color-primary);
-    width: 40%;
+    width: 30%;
+    /* 40% */
     /* 50% */
+    /* height: 600px; */
     border-radius: 10px;
     padding: 30px 40px;
     gap: 30px;
@@ -63,14 +67,16 @@
 .compre-ja .informacoes h3 {
     font-family: var(--font-primary);
     color: var(--color-primary);
-    font-size: 32px;
+    font-size: 20px;
+    /* 32 */
     /* 52 */
     font-weight: 700;
 }
 
 .compre-ja .informacoes p {
     color: #e8e8e8;
-    font-size: 16px;
+    font-size: 14px;
+    /* 16 */
     line-height: 1.6;
 }
 
@@ -78,16 +84,25 @@
     color: var(--color-primary);
 }
 
-.logo-switch {
-    width: 45px;
-}
-
 .compre-ja .informacoes .plataformas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    /* 30 */
     /* 32 */
+}
+
+.compre-ja .informacoes .plataformas li img {
+    width: 80%;
+}
+
+.compre-ja .informacoes .plataformas li .logo-switch {
+    width: 30px;
+}
+
+.compre-ja .btn-plataforma .plataformas li .logo-switch{
+    width: 17%;
 }
 
 .btn-plataforma {
@@ -101,13 +116,15 @@
     text-align: center;
     padding: 20px 40px;
     text-transform: uppercase;
-    width: 50%;
+    /* width: 100%; */
+    /* 50 */
     transition: all .3s ease-in;
     cursor: pointer;
 }
 
 .compre-ja .btn-plataforma .plataformas {
-    margin-top: 10px;
+    margin-top: 20px;
+    /* 10 */
     display: flex;
     flex-direction: column;
     gap: 20px;
