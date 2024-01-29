@@ -7,7 +7,7 @@
 body {
     background-color: #212121;
     color: #fff;
-    font-family: 'Ridley Grotesk', sans-serif;
+    font-family: var(--font-secundary);
     background: url(../image/hogwarts-legacy-bg.jpg) no-repeat center/cover fixed;
 }
 

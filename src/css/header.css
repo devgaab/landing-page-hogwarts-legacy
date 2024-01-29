@@ -26,7 +26,7 @@
 
 .cabecalho .logo hr {
     height: 30px;
-    border-color: #b69451;
+    border-color: var(--color-primary);
     opacity: 0.5;
 }
 
@@ -37,12 +37,12 @@
 
 .cabecalho .menu li a {
     padding: 20px 20px 12px 20px;
-    color: #b69451;
+    color: var(--color-primary);
     /* color: #e8e8e8; */
-    font-family: "Tongari Demo Regular";
+    font-family: var(--font-primary);
     font-size: 15px;
 }
 
 .cabecalho .menu li a:hover {
-    border-bottom: 2px solid #b69451;
+    border-bottom: 2px solid var(--color-primary);
 }
