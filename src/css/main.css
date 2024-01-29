@@ -1,0 +1,70 @@
+/* main */
+.home {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 50px);
+}
+
+.home::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+}
+
+/* .home .imagem-fundo {
+    width: 100%;
+    object-fit: cover;
+} */
+
+.home .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 70px 80px 0 140px;
+    max-width: 780px;
+}
+
+.home .informacoes img {
+    max-width: 400px;
+}
+
+/* .home .informacoes .lista-de-jogos {
+    display: flex;
+    gap: 32px;
+} */
+
+.home .informacoes .titulo {
+    font-family: "Tongari Demo Regular";
+    /* font-family: 'ChaletComprime'; */
+    font-size: 35px;
+}
+
+.home .informacoes .texto {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn-comprar {
+    color: #b69451;
+    background-color: rgba(182, 148, 81, .1);
+    border: 0.5px solid #b69451;
+    border-radius: 4px;
+    font-family: "Tongari Demo Regular";
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
+}
+
+.btn-comprar:hover {
+    background-color: #b69451;
+    color: #000;
+}

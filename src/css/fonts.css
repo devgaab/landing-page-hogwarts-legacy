@@ -3,6 +3,8 @@
     src: url("../font/ChaletComprime.ttf");
 } */
 
+@import url('https://fonts.cdnfonts.com/css/ridley-grotesk');
+
 @font-face {
     font-family: "Tongari Demo Regular";
     src: url("../font/Tongari\ Demo\ Regular.ttf");

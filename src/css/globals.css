@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Ridley Grotesk', sans-serif;
+    background: url(../image/hogwarts-legacy-bg.jpg) no-repeat center/cover fixed;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

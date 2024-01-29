@@ -1,0 +1,48 @@
+/* header */
+.cabecalho {
+    height: 50px;
+    background: url(../image/header-bg.jpg) no-repeat center/cover;
+    /* background-color: #0b0b0b; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    /* border-bottom: 1px solid #282828; */
+}
+
+.cabecalho .logo-warner {
+    width: 23px;
+}
+
+.cabecalho .logo-hg {
+    width: 120px;
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cabecalho .logo hr {
+    height: 30px;
+    border-color: #b69451;
+    opacity: 0.5;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalho .menu li a {
+    padding: 20px 20px 12px 20px;
+    color: #b69451;
+    /* color: #e8e8e8; */
+    font-family: "Tongari Demo Regular";
+    font-size: 15px;
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #b69451;
+}

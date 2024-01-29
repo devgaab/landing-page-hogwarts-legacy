@@ -1,0 +1,9 @@
+@import './variables.css';
+@import './globals.css';
+
+@import './fonts.css';
+@import './header.css';
+@import './main.css';
+@import './section.css';
+@import './scrollbar.css';
+@import './media-query.css';
