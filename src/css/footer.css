@@ -1,0 +1,23 @@
+.footer-content {
+    background: url(../image/bg-footer.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.8);
+}
+
+.footer-content .footer-txt {
+    color: #e8e8e8;
+    font-family: var(--font-primary);
+    font-size: 17px;
+}
+
+.footer-content .footer-txt a {
+    font-family: var(--font-secundary);
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: underline;
+}
