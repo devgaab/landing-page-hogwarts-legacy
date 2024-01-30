@@ -10,7 +10,7 @@
 }
 
 .footer-content .footer-txt {
-    color: #e8e8e8;
+    color: var(--color-secundary);
     font-family: var(--font-primary);
     font-size: 17px;
 }

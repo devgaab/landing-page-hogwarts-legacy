@@ -1,13 +1,10 @@
-/* header */
 .cabecalho {
     height: 50px;
     background: url(../image/header-bg.jpg) no-repeat center/cover;
-    /* background-color: #0b0b0b; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    /* border-bottom: 1px solid #282828; */
 }
 
 .cabecalho .logo-warner {
@@ -38,11 +35,15 @@
 .cabecalho .menu li a {
     padding: 20px 20px 12px 20px;
     color: var(--color-primary);
-    /* color: #e8e8e8; */
     font-family: var(--font-primary);
     font-size: 15px;
 }
 
 .cabecalho .menu li a:hover {
     border-bottom: 2px solid var(--color-primary);
+}
+
+.cabecalho .menu li a .bi-box-arrow-up-right {
+    font-size: 10px;
+    margin-left: 4px;
 }
