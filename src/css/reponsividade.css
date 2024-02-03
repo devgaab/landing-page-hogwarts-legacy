@@ -1,0 +1,121 @@
+@media (max-width: 1024px) {
+    .compre-ja .cartoes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .home .informacoes {
+        padding: 4.37rem 4.37rem 0 4.37rem;
+    }
+
+    .btn-comprar {
+        width: 100%;
+    }
+
+    .compre-ja {
+        padding: 0 1.87rem 1.87rem 1.87rem;
+    }
+
+    .compre-ja .cartao {
+        padding: 5rem 1.25rem;
+        width: 90%;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 1.87rem;
+    }
+
+    .btn-plataforma {
+        margin-top: 0.93rem;
+        padding: 0.93rem;
+    }
+
+    .footer-content .footer-txt {
+        font-size: 0.93rem;
+    }
+}
+
+@media (max-width: 675px) {
+    .cabecalho {
+        justify-content: center;
+        gap: 0;
+    }
+
+    .cabecalho .logo {
+        gap: 0;
+    }
+
+    .cabecalho .logo hr {
+        margin: 0 1rem 0 2rem;
+    }
+
+    .cabecalho .logo-hg {
+        display: none;
+    }
+
+    .cabecalho .menu {
+        gap: 0;
+    }
+
+    .home .informacoes {
+        padding: 3.12rem 4.37rem;
+        gap: 1rem;
+    }
+
+    .compre-ja .titulo {
+        margin-top: 2.5rem;
+        font-size: 2.5rem;
+    }
+
+    .footer-content {
+        padding: 1.25rem;
+    }
+}
+
+@media (max-width: 552px) {
+    .cabecalho {
+        padding: 0 0.93rem;
+    }
+
+    .cabecalho .menu {
+        gap: 0;
+    }
+
+    .cabecalho .menu li a {
+        padding: 0.93rem 0.93rem 0.62rem 0.93rem;
+    }
+
+    .home .informacoes {
+        padding: 3.12rem;
+    }
+
+    .home .informacoes img {
+        max-width: 12.5rem;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 1.87rem;
+    }
+
+    .home .informacoes .texto {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .home::after,
+    .compre-ja::after {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+    }
+
+    .compre-ja .cartao {
+        width: 100%;
+    }
+}
+
+@media (max-width: 377px) {
+    .cabecalho .menu li a .bi-box-arrow-up-right {
+        display: none;
+    }
+}
