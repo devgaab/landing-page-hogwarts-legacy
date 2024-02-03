@@ -1,8 +1,6 @@
 .compre-ja .cartao .capa-do-jogo {
     width: 9.37rem;
-    /* 150px */
     height: 12.5rem;
-    /* 200px */
 }
 
 .compre-ja {
@@ -11,10 +9,8 @@
     align-items: center;
     text-align: center;
     padding: 0 3.12rem 3.12rem 3.12rem;
-    /* 0 50px 50px 50px */
 
     position: relative;
-    /* min-height: calc(100vh - 3.12rem); */
 }
 
 .compre-ja::after {
@@ -28,9 +24,7 @@
 .compre-ja .titulo {
     font-family: var(--font-primary);
     font-size: 3.12rem;
-    /* 50px */
     margin: 3.12rem 0;
-    /* 50px 0 */
     text-decoration: underline var(--color-primary);
     z-index: 1;
 }
@@ -40,7 +34,6 @@
     justify-content: center;
     align-items: flex-start;
     gap: 2.5rem;
-    /* 40px */
     z-index: 1;
 }
 
@@ -53,9 +46,7 @@
     width: 50%;
     border-radius: 10px;
     padding: 1.87rem 2.5rem;
-    /* 30px 40px */
     gap: 1.87rem;
-    /* 30px */
     backdrop-filter: blur(10px);
 }
 
@@ -63,21 +54,18 @@
     display: flex;
     flex-direction: column;
     gap: 1.87rem;
-    /* 30px */
 }
 
 .compre-ja .informacoes h3 {
     font-family: var(--font-primary);
     color: var(--color-primary);
     font-size: 1.25rem;
-    /* 20px */
     font-weight: 700;
 }
 
 .compre-ja .informacoes p {
     color: var(--color-secundary);
     font-size: 0.87rem;
-    /* 14px */
     line-height: 1.6;
 }
 
@@ -90,7 +78,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.25rem;
-    /* 20px */
 }
 
 .compre-ja .informacoes .plataformas li img {
@@ -110,13 +97,10 @@
     background-color: var(--btn-bg-color);
     border: 0.5px solid var(--color-primary);
     border-radius: 0.25rem;
-    /* 4px */
     font-family: var(--font-primary);
     font-size: 1.25rem;
-    /* 20px */
     text-align: center;
     padding: 1.25rem 2.5rem;
-    /* 20px 40px */
     text-transform: uppercase;
     transition: all .3s ease-in;
     cursor: pointer;
@@ -124,11 +108,9 @@
 
 .compre-ja .btn-plataforma .plataformas {
     margin-top: 1.25rem;
-    /* 20px */
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    /* 20px */
     transition: all .3s ease-in;
     display: none;
     opacity: 0;
@@ -137,11 +119,12 @@
 .compre-ja .btn-plataforma .plataformas.ativo {
     display: flex;
     opacity: 1;
+    height: 11.25rem;
+    overflow-y: scroll;
 }
 
 .compre-ja .btn-plataforma .plataformas li {
     padding: 1.25rem;
-    /* 20px */
 }
 
 .compre-ja .btn-plataforma .plataformas li:nth-child(1) {

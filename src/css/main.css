@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
     min-height: calc(100vh - 3.12rem);
-    /* 50px */
 }
 
 .home::after {
@@ -17,16 +16,12 @@
     position: absolute;
     z-index: 1;
     min-height: calc(100vh - 3.12rem);
-    /* 50px */
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    /* 32px */
     padding: 4.37rem 5rem 0 8.75rem;
-    /* 70px 80px 0 140px */
     max-width: 48.75rem;
-    /* 780px */
 }
 
 .home .informacoes img {
@@ -36,12 +31,10 @@
 .home .informacoes .titulo {
     font-family: var(--font-primary);
     font-size: 2.18rem;
-    /* 35px */
 }
 
 .home .informacoes .texto {
     font-size: 1.12rem;
-    /* 18px */
     line-height: 1.6;
 }
 
@@ -50,13 +43,10 @@
     background-color: var(--btn-bg-color);
     border: 0.5px solid var(--color-primary);
     border-radius: 0.25rem;
-    /* 4px */
     font-family: var(--font-primary);
     font-size: 1.75rem;
-    /* 28px */
     text-align: center;
     padding: 1.25rem 2.5rem;
-    /* 20px 40px */
     text-transform: uppercase;
     width: 50%;
     transition: all .3s ease-in;
